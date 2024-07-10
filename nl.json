@@ -85,8 +85,8 @@
         "Interaction.SaveToInventory.NoWritePermission": "Kan niet in de huidige folder opslaan.",
         "Interaction.Undo": "Ongedaan maken",
         "Interaction.Redo": "Opnieuw doen",
-        "Interaction.EquipTool": "Vastgrijpen", // TODO (equip)
-        "Interaction.DequipTool": "Loslaten", // TODO (equip)
+        "Interaction.EquipTool": "aan doen", // TODO (equip)
+        "Interaction.DequipTool": "uit doen", // TODO (equip)
         "Interaction.ScalingEnabled": "Schalen Aan",
         "Interaction.ScalingDisabled": "Schalen Uit",
         "Interaction.ResetScale": "Schaal resetten",
@@ -99,13 +99,13 @@
         "Interaction.Locomotion": "Voortbeweging",
         "Interaction.Locomotion.None": "Geen",
 
-        "Interaction.NamedEquipTool": "{name} uitrusten", // TODO (equip)
+        "Interaction.NamedEquipTool": "{name} aanzetten", // TODO (equip)
         "Interaction.NamedEquipTool.Default": "Gereedschap",
 
         "Interaction.EnterAnchor": "Betreed Anker",
         "Interaction.ExitAnchor": "Verlaat Anker",
 
-        "Interaction.EquipAvatar": "Avatar uitrusten", // TODO (equip)
+        "Interaction.EquipAvatar": "Avatar aan doen", // TODO (equip)
 
         "Interaction.SaveAsScreenshot": "Sla op als screenshot",
         "Interaction.ExportScreenshot": "Screenshot exporteren",
@@ -115,7 +115,7 @@
         "Interaction.CopyImage": "Kopiëer afbeeelding",
 
         "Inventory.OpenWorld": "Open wereld",
-        "Inventory.Equip": "Equip", // TODO (equip)
+        "Inventory.Equip": "Aan doen", // TODO (equip)
         "Inventory.Delete": "Verwijderen",
         "Inventory.CreateDirectory": "Folder maken",
         "Inventory.SaveHeld": "Object opslaan",
@@ -217,16 +217,16 @@
         "World.Config.SaveOptionsHeader": "Opties voor opslaan:",
         "World.Config.EditMode": "Bewerkingsmodus:",
         "World.Config.AccessLevelHeader": "Wie kan deelnemen aan deze wereld?",
-        "World.Config.AutoKickAFK": "Auto-kick AFK gebruikers:", // TODO (kick)
+        "World.Config.AutoKickAFK": "Automatisch AFK gebruikers uit gooien:", // TODO (kick)
         "World.Config.AutoKickAFKMinutes": "Maximum AFK minuten:",
         "World.Config.HideFromListing": "Niet weergeven in sessielijst",
         "World.Config.Autosave": "Automatisch opslaan (overschrijven):",
         "World.Config.AutosaveInterval": "Automatisch opslaan per minuten:",
-        "World.Config.CleanupAssets": "Maak ongebruikte assets schoon:", // TODO (asset)
+        "World.Config.CleanupAssets": "Maak ongebruikte asetten schoon:", // TODO (asset)
         "World.Config.CleanupInterval": "Tijd tussen schoonmaken (seconden):",
 
         "World.Actions.StartSession": "Start sessie",
-        "World.Actions.Join": "Toetreden", // TODO (join)
+        "World.Actions.Join": "Intreden", // TODO (join)
         "World.Actions.Focus": "Focus",
         "World.Actions.Close": "Wereld sluiten",
         "World.Actions.Leave": "Verlaat wereld",
@@ -253,12 +253,12 @@
         "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Je host deze wereld. Alle aanwezige gebruikers worden losgekoppeld wanneer je de wereld sluit.",
 
-        "World.Actions.GetWorldOrb": "Wereld bol", // TODO (world orb)
+        "World.Actions.GetWorldOrb": "Wereld bal", // TODO (world orb)
         "World.Actions.CopyWorldURL": "Kopiëer wereld URL",
-        "World.Actions.CopyRecordURL": "Kopiëer record URL", // TODO (record)
+        "World.Actions.CopyRecordURL": "Kopiëer bestands URL", // TODO (record)
         "World.Actions.StartCustomSession": "Start aangepaste sessie",
         "World.Actions.ModifyMetadata": "Bewerk metadata",
-        "World.Actions.GetSessionOrb": "Sessie bol", // TODO (session orb)
+        "World.Actions.GetSessionOrb": "Sessie bal", // TODO (session orb)
         "World.Actions.CopySessionURL": "Kopiëer sessie URL",
 
         "World.Indicator.NoData": "Geen data",
@@ -356,7 +356,7 @@
         "World.Edit.AccessPatreon": "Patreon Supporters",
         "World.Edit.AccessPublic": "Iedereen (Openbaar)",
 
-        "Tools.AvatarCreator": "Avatar Creator", // TODO (creator)
+        "Tools.AvatarCreator": "Avatar maker", // TODO (creator)
         "Tools.FullBodyCalibrator": "Calibreer full-body",
         "Tools.CameraStreaming": "Camera / Streamen",
         "Tools.CreateNewWorld": "Maak een nieuwe wereld",
@@ -395,7 +395,7 @@
 
         "Indicator.Sync.AllSynced": "Alles gesynchroniseerd",
         "Indicator.Sync.SyncingItems": "Synchroniseren <br><size=61.8033%>{item_count, plural, one {# item} other {# items}}</size>",
-        "Indicator.Sync.UploadingVariants": "Uploaden<br><size=61.8033%>asset variants</size>", // TODO (asset)
+        "Indicator.Sync.UploadingVariants": "Uploaden<br><size=61.8033%>asetten variants</size>", // TODO (asset)
         "Indicator.Sync.SyncError": "Synchronisatiefout <size=61.803%>Bekijk de log voor details</size>",
         "Indicator.Sync.StorageFull": "Opslag zit vol <size=61.803%>Kan niet synchroniseren</size>",
 
@@ -443,7 +443,7 @@
         "Login.AccountTempLocked": "Je account is vergrendeld.",
         "Login.AccountTempLocked.Description": "Neem contact op met ons op: {moderationUrl}.",
 
-        "Login.AccountBanned": "Je account is verbannen.", // TODO (ban)
+        "Login.AccountBanned": "Je account is geband.", // TODO (ban)
         "Login.AccountBanned.Description": "Neem contact op met ons op: {moderationUrl}.",
 
         "Login.DuplicateAccount": "Dubbel account",
@@ -607,21 +607,21 @@
         "Session.Permission.PermissionOverrideCount": "Rechten Overschreven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wis Gebruikersoverschrijvingen",
 
-        "Session.JoinVerifier.EnableHeader": "Activeer Aangepaste Join Verifier?", // TODO (join verifier)
-        "Session.JoinVerifier.EnableText": "<color=red>WAARSCHUWING:</color> Je zet zometeen een aangepaste join verifier aan die onderdeel uitmaakt van deze wereld. Voordat je dit doet, zorg dat je de maker van de wereld vertrouwt. Aangepaste join verifiers kunnen toegangs-regels van sessies overslaan, en gebruikers blokkeren of toelaten met aangepaste regels.", // TODO (join verifier)
-        "Session.JoinVerifier.Label": "Gebruik Aangepaste Join Verifier: {name}", // TODO (join verifier)
-        "Session.JoinVerifier.ComponentWarning": "<color=red>WAARSCHUWING:</color> Op dit moment is er niks om de join verifier te beschermen van aanpassingen. Als het aanpassen van de ProtoFlux een zorg is, GEBRUIK DEZE NIET en ZET HET NIET AAN in jouw werelden.", // TODO (join verifier)
-        "Session.JoinVerifier.SetCustomVerifier": "Stel in als aangepaste join request verifier", // TODO (join verifier)
+        "Session.JoinVerifier.EnableHeader": "Activeer Aangepaste Join Verifeerder?", // TODO (join verifier)
+        "Session.JoinVerifier.EnableText": "<color=red>WAARSCHUWING:</color> Je zet zometeen een aangepaste join verifeerder aan die onderdeel uitmaakt van deze wereld. Voordat je dit doet, zorg dat je de maker van de wereld vertrouwt. Aangepaste join verifeerder kunnen toegangs-regels van sessies overslaan, en gebruikers blokkeren of toelaten met aangepaste regels.", // TODO (join verifier)
+        "Session.JoinVerifier.Label": "Gebruik Aangepaste Join Verifeerder: {name}", // TODO (join verifier)
+        "Session.JoinVerifier.ComponentWarning": "<color=red>WAARSCHUWING:</color> Op dit moment is er niks om de join verifeerder te beschermen van aanpassingen. Als het aanpassen van de ProtoFlux een zorg is, GEBRUIK DEZE NIET en ZET HET NIET AAN in jouw werelden.", // TODO (join verifier)
+        "Session.JoinVerifier.SetCustomVerifier": "Stel in als aangepaste join request verifeerder", // TODO (join verifier)
 
         "Permissions.NotAllowedToSpawn": "Je mag hier geen voorwerpen spawnen.",
         "Permissions.NotAllowedToSave": "Je mag in deze wereld geen voorwerpen opslaan.",
         "Permissions.NotAllowedToSwapAvatar": "Je mag hier niet wisselen naar een aangepaste avatar.",
 
-        "User.Actions.Silence": "Dempen", // TODO (silence)
-        "User.Actions.Mute": "Dempen", // TODO (mute)
-        "User.Actions.Jump": "Spring", // TODO (jump)
+        "User.Actions.Silence": "Stillen", // TODO (silence)
+        "User.Actions.Mute": "Stillen", // TODO (mute)
+        "User.Actions.Jump": "Springen", // TODO (jump)
         "User.Actions.Respawn": "Respawn",
-        "User.Actions.Kick": "Kick", // TODO (kick)
+        "User.Actions.Kick": "Uitgooien", // TODO (kick)
         "User.Actions.Ban": "Verbannen", // TODO (ban)
 
         "Contacts.Add": "Contact Toevoegen",
@@ -668,7 +668,7 @@
         "Notifications.ReceivedItem": "Heeft je een voorwerp gestuurd:",
         "Notifications.VoiceMessage": "Heeft je een spraakbericht verstuurd",
         "Notifications.SessionStarted": "Heeft een sessie gestart:",
-        "Notifications.UserJoined": "Gebruiker heeft de sessie toegetreden", // TODO (join)
+        "Notifications.UserJoined": "Gebruiker heeft de sessie aangetreden", // TODO (join)
         "Notifications.UserLeft": "Gebruiked heeft de sessie verlaten",
 
         "Undo.SetField": "Veld {field_name} naar {value} instellen",
@@ -699,7 +699,7 @@
         "Undo.ApplyMaterial": "Materiaal aanbrengen",
         "Undo.BakeMeshes": "Bak {name}",
         "Undo.ChangeMesh": "Verander Mesh",
-        "Undo.InsertParent": "Parent invoegen voor {name}", // TODO (parent)
+        "Undo.InsertParent": "Bovenobject invoegen voor {name}", // TODO (parent)
         "Undo.Wiggler": "Kwaadaardige Dingen",
 
         "Undo.ExtractMaterialsFromHierarchy": "Materialen uit hiërarchie halen",
@@ -713,21 +713,21 @@
         "Tooltips.Dev.Selection": "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off": "Ontwikkelaarsmodus: Uit",
         "Tooltips.Dev.DevMode.On": "Ontwikkelaarsmodus: Aan",
-        "Tooltips.Dev.OpenInspector": "Open Inspecteur", // TODO (inspector)
+        "Tooltips.Dev.OpenInspector": "Open Inspecter", // TODO (inspector)
         "Tooltips.Dev.DeselectAll": "Deselecteer alles",
         "Tooltips.Dev.DestroySelected": "Verwijder geselecteerde",
         "Tooltips.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Verwijderen",
 
         "Tooltips.Dev.GizmoOptions": "Gizmo Opties",
-        "Tooltips.Dev.SelectParent": "Selecteer Parent", // TODO (parent)
+        "Tooltips.Dev.SelectParent": "Selecteer Bovenobject", // TODO (parent)
         "Tooltips.Dev.LocalSpace": "Lokale Ruimte",
         "Tooltips.Dev.GlobalSpace": "Globale Ruimte",
         "Tooltips.Dev.Translation": "Vertaling",
         "Tooltips.Dev.Rotation": "Rotatie",
         "Tooltips.Dev.Scale": "Schaal",
 
-        "Tooltips.Dev.Selection.Single": "Enkel", // TODO (single)
-        "Tooltips.Dev.Selection.Multi": "Meerdere", // TODO (multi)
+        "Tooltips.Dev.Selection.Single": "Enkelen", // TODO (single)
+        "Tooltips.Dev.Selection.Multi": "Meerderen", // TODO (multi)
 
         "Tooltips.Dev.Interaction.Tip": "Punt",
         "Tooltips.Dev.Interaction.Projection": "Projectie",
@@ -736,7 +736,7 @@
 
         "Tooltip.GrabbableSetter.Scalable": "Schaalbaar instellen",
         "Tooltip.GrabbableSetter.NonScalable": "Niet-schaalbaar instellen",
-        "Tooltip.GrabbableSetter.ApplyToRoot": "Stel Toepassen op Root in", // TODO (root)
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Stel Toepassen op Begin in", // TODO (root)
         "Tooltip.GrabbableSetter.AppyToHit": "Stel Toepassen op Hit in",
 
         "Tooltip.CharacterCollider.MarkGrippable": "Vastpakken Toestaan",
@@ -759,10 +759,10 @@
         "Tooltip.MeshVisibility.OnlyShadow": "Stel in op alleen schaduwen",
         "Tooltip.MeshVisibility.DoubleSidedShadow": "Stel in op dubbelzijdige schaduw",
 
-        "Tooltip.Slicer.Add": "Voeg Slicer toe", // TODO (slicer)
+        "Tooltip.Slicer.Add": "Voeg demper toe", // TODO (slicer)
         "Tooltip.Slicer.Clear": "Wis instellingen",
 
-        "Tooltip.Material.RayMode": "Ray-modus", // TODO (ray)
+        "Tooltip.Material.RayMode": "Straalings-modus", // TODO (ray)
         "Tooltip.Material.AreaMode": "Gebiedsmodus",
         "Tooltip.Material.ObjectMode": "Globale objectmodus",
         "Tooltip.Material.SceneMode": "Globale scène-modus",
@@ -799,19 +799,19 @@
         "Tooltip.ProtoFlux.Unpack": "Uitpakken van <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast": "Expliciet Overzetten\n<size=50%>(<color=red>Waarschuwing:</color> Mogelijk Gegevens-verlies)</size>",
 
-        "Tooltip.Meter.Mode.Ray": "Modus: Ray", // TODO (ray)
-        "Tooltip.Meter.Mode.Perpendicular": "Modus: Loodrecht", // TODO (perpendicular)
+        "Tooltip.Meter.Mode.Ray": "Modus: Straaling", // TODO (ray)
+        "Tooltip.Meter.Mode.Perpendicular": "Modus: Uitlijnen", // TODO (perpendicular)
         "Tooltip.Meter.Mode.Drag": "Modus: Slepen",
 
         "Tooltip.Meter.Points.Two": "Twee Punten",
         "Tooltip.Meter.Points.Multiple": "Meerdere Punten",
 
-        "Tooltip.Meter.ObjectSpace": "Meet in Objectspace", // TODO (objectspace)
-        "Tooltip.Meter.WorldSpace": "Meet in Worldspace", // TODO (worldspace)
+        "Tooltip.Meter.ObjectSpace": "Meet in Objectievelijke ruimte", // TODO (objectspace)
+        "Tooltip.Meter.WorldSpace": "Meet in Globale ruimte", // TODO (worldspace)
 
         "Tooltip.Glue.Mode.BakeMeshes": "Modus: Bak meshes",
-        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Modus: Bak skinned meshes", // TODO (skinned mesh)
-        "Tooltip.Glue.Mode.ParentObjects": "Modus: Parent objecten", // TODO (parent)
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Modus: Bak gehuide object", // TODO (skinned mesh)
+        "Tooltip.Glue.Mode.ParentObjects": "Modus: Boven objecten", // TODO (parent)
 
         "Tooltip.RigTransfer.ClearSource": "Verwijder bron",
 
@@ -825,10 +825,10 @@
 
         "CreateNew.Back": "<<< <i>Terug</i>",
         "CreateNew.EmptyObject": "Leeg Object",
-        "CreateNew.ParticleSystem": "Particle Systeem", // TODO (particles)
+        "CreateNew.ParticleSystem": "Deeltjes Systeem", // TODO (particles)
 
         "CreateNew.Object": "Object",
-        "CreateNew.Object.AvatarCreator": "Avatar Creator", // TODO (creator)
+        "CreateNew.Object.AvatarCreator": "Avatar Maker", // TODO (creator)
         "CreateNew.Object.Camera": "Camera",
         "CreateNew.Object.ReflectionProbe": "Reflectie Probe",
         "CreateNew.Object.Mirror": "Spiegel",
@@ -849,13 +849,13 @@
         "CreateNew.Text.Basic": "Simpel",
         "CreateNew.Text.Outline": "Omlijning",
 
-        "CreateNew.Editor": "Editor", // TODO (editor)
-        "CreateNew.Editor.UserInspector": "Gebruikers Inspector", // TODO (inspector)
-        "CreateNew.Editor.LightSourcesWizard": "Wereldlichtbronnen Wizard", // TODO (wizard)
-        "CreateNew.Editor.TextRendererWizard": "Wereld Text Renderer Wizard", // TODO (wizard)
-        "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimalisatie Wizard", // TODO (asset, wizard)
-        "CreateNew.Editor.CubemapCreator": "Cubemap Creator", // TODO (creator)
-        "CreateNew.Editor.ReflectionProbes": "Reflectie Probe Wizard", // TODO (probe, wizard)
+        "CreateNew.Editor": "Maker", // TODO (editor)
+        "CreateNew.Editor.UserInspector": "Gebruikers Inspecter", // TODO (inspector)
+        "CreateNew.Editor.LightSourcesWizard": "Wereldlichtbronnen Configuratie", // TODO (wizard)
+        "CreateNew.Editor.TextRendererWizard": "Wereld Text visueel Configuratie", // TODO (wizard)
+        "CreateNew.Editor.AssetOptimizationWizard": "Asetten Optimalisatie Configuratie", // TODO (asset, wizard)
+        "CreateNew.Editor.CubemapCreator": "Cubemap Configuratie", // TODO (creator)
+        "CreateNew.Editor.ReflectionProbes": "Reflectie Pijler Configuratie", // TODO (probe, wizard)
 
         "CreateNew.3DModel": "3D Model",
         "CreateNew.3DModel.Triangle": "Driehoek",
@@ -888,7 +888,7 @@
         "CreateNew.Directory.Error.LongName": "Naam is te lang:",
         "CreateNew.Directory.Error.InvalidName": "Ongeldige naam:",
 
-        "AvatarCreator.Title": "Avatar Creator", // TODO (creator)
+        "AvatarCreator.Title": "Avatar Maker", // TODO (creator)
         "AvatarCreator.Instructions": "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry": "Gebruik symmetrie",
         "AvatarCreator.ShowToolAnchors": "Toon gereedschapsankers",
@@ -949,7 +949,7 @@
         "Importer.Model.AdvancedSettings": "Geavanceerde Instellingen",
         "Importer.Model.ModelKindPrompt": "Wat voor soort 3D Model?",
         "Importer.Model.RegularKind": "Normaal / Avatar",
-        "Importer.Model.SeparableKind": "Scheidbaar met Snappable stukken", // TODO (snap)
+        "Importer.Model.SeparableKind": "Scheidbaar met Klikbare stukken", // TODO (snap)
         "Importer.Model.UnitsPrompt": "In welke eenheid is het?",
         "Importer.Model.AutoScale": "Auto Schaal (Onbekende Schaal)",
         "Importer.Model.AutoHumanoid": "Auto Menselijke Hoogte",
@@ -979,13 +979,13 @@
 
         "Importer.Model.Advanced.Colliders": "Genereer Colliders",
         "Importer.Model.Advanced.Animations": "Importeer Animaties",
-        "Importer.Model.Advanced.SetupSnappable": "Stel in als snappable", // TODO (snap)
+        "Importer.Model.Advanced.SetupSnappable": "Stel in als klikker", // TODO (snap)
         "Importer.Model.Advanced.SetupTimelapse": "Instellen als timelapse",
         "Importer.Model.Advanced.ImportExternalTextures": "Importeer externe textures",
-        "Importer.Model.Advanced.SkinnedMeshes": "Importeer skinned meshes", // TODO (skinned mesh)
+        "Importer.Model.Advanced.SkinnedMeshes": "Importeer gehuide object", // TODO (skinned mesh)
         "Importer.Model.Advanced.SetupIK": "Stel IK in",
-        "Importer.Model.Advanced.VisualizeRig": "Visualiseer Rig", // TODO (rig)
-        "Importer.Model.Advanced.ForceTpose": "Forceer T-Pose",
+        "Importer.Model.Advanced.VisualizeRig": "Visualiseer skelet", // TODO (rig)
+        "Importer.Model.Advanced.ForceTpose": "Forceer T-Positie",
         "Importer.Model.Advanced.ForcePointCloud": "Als Point Cloud",
 
         "Importer.Model.Advanced.DualSided": "Maak Dubbelzijdig",
@@ -1003,7 +1003,7 @@
         "Importer.Model.Advanced.Grabbable": "Maak Vastpakbaar",
         "Importer.Model.Advanced.Scalable": "Maak Schaalbaar",
         "Importer.Model.Advanced.PositionAtOrigin": "Positioneer Op Oorsprong",
-        "Importer.Model.Advanced.AssetsOnObject": "Plaats Assets Op Object", // TODO (asset)
+        "Importer.Model.Advanced.AssetsOnObject": "Plaats object Op Object", // TODO (asset)
 
         "Importer.Video.Title": "Importeer Video",
         "Importer.Video.Prompt": "Wat ben je aan het importeren?",
@@ -1014,11 +1014,11 @@
         "Importer.Video.Depth": "Diepte Video",
         "Importer.Video.180": "180° Video",
         "Importer.Video.Stereo180": "Stereo 180° Video",
-        "Importer.Video.Depth.Prompt": "Diepte Preset", // TODO (preset)
+        "Importer.Video.Depth.Prompt": "Diepte Voorbeeld", // TODO (preset)
         "Importer.Video.Depth.Default": "Standaard",
 
-        "Importer.Slices.Title": "Delen van afbeelding als volumetric texture", // TODO (volumetric)
-        "Importer.Slices.TitleGrayscale": "Delen van afbeelding als volumetric texture (grijs)", // TODO (volumetric)
+        "Importer.Slices.Title": "Delen van afbeelding als volumetrische texture", // TODO (volumetric)
+        "Importer.Slices.TitleGrayscale": "Delen van afbeelding als volumetrische texture (grijs)", // TODO (volumetric)
         "Importer.Slices.Description": "Verwerk alle afbeeldingen in de folder naar een volumetric texture",
 
         "Exporter.Title": "Exporteer",
@@ -1037,7 +1037,7 @@
 
         "Importer.Package.Progress.DecodingPackage" : "Pakket Decoderen",
         "Importer.Package.Progress.DecodingObject" : "Object Decoderen",
-        "Importer.Package.Progress.ImportingAssets" : "Assets Importeren", // TODO (asset)
+        "Importer.Package.Progress.ImportingAssets" : "Object Importeren", // TODO (asset)
         "Importer.Package.Progress.LoadingObject" : "Object Laden",
         "Importer.Package.Progress.Imported" : "Pakket Geïmporteerd",
         "Importer.Package.Progress.Fail" : "Importeren mislukt. Controleer logs",
@@ -1124,7 +1124,7 @@
         "CameraControl.Mode.Manual": "Handmatig",
 
         "CameraControl.Settings.AvoidOcclusion": "Voorkom Occlusie",
-        "CameraControl.Settings.KeepInWorldspace": "Houd In Worldspace", // TODO (worldspace)
+        "CameraControl.Settings.KeepInWorldspace": "Houd In Globale ruimte", // TODO (worldspace)
         "CameraControl.Settings.MovementWobble": "Beweging Wiebelen",
         "CameraControl.Settings.AimInFrontOfHead": "Richt Voor Het Hoofd",
         "CameraControl.Settings.HideCamera": "Verberg Camera",
@@ -1156,15 +1156,15 @@
         "CameraControl.Control.AnyoneCanInteract": "Iedereen Kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone": "Laat Iedereen Het Voorbeeld Zien",
         "CameraControl.Control.RenderPrivateUI": "Laat Privé UI zien",
-        "CameraControl.Control.MotionBlur": "Bewegingsonscherpte", // TODO (motion blur)
+        "CameraControl.Control.MotionBlur": "Bewegingswazing", // TODO (motion blur)
         "CameraControl.Control.ScreenSpaceReflections": "Screenspace Reflecties",
         "CameraControl.Control.SpawnPhotoInWorld": "Spawn foto in de wereld",
         "CameraControl.Control.FlipPreview": "Voorbeeld Omdraaien",
         "CameraControl.Control.GroupDetectionRadius": "Groepsdetectieradius: {n} m",
         "CameraControl.Control.GroupExcludeBoundary": "Groep Uitsluitings-grens: {n} m",
-        "CameraControl.Control.PositionSmoothSpeed": "Positie Smooth Snelheid: {n}", // TODO (smooth)
-        "CameraControl.Control.AngleSmoothSpeed": "Hoek Smooth Snelheid: {n}", // TODO (smooth)
-        "CameraControl.Control.FramingSmoothSpeed": "Framing Smooth Snelheid: {n}", // TODO (smooth, framing)
+        "CameraControl.Control.PositionSmoothSpeed": "Positie verfijn Snelheid: {n}", // TODO (smooth)
+        "CameraControl.Control.AngleSmoothSpeed": "Hoek verfijn Snelheid: {n}", // TODO (smooth)
+        "CameraControl.Control.FramingSmoothSpeed": "lijsten verfijn Snelheid: {n}", // TODO (smooth, framing)
 
         "CameraControl.OBS.IP": "OBS Websocket IP-adres:",
         "CameraControl.OBS.Password": "OBS Wachtwoord (optioneel):",
@@ -1226,7 +1226,7 @@
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
-        "Settings.TrackingSmoothingSettings": "Tracking Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings": "Tracking Verfijnen", // TODO (smooth)
 
         "Settings.UserMetricsSettings": "Gebruikers-gegevens",
 
@@ -1251,7 +1251,7 @@
         "Settings.AudioInputFilteringSettings": "Invoer Filtering",
 
         "Settings.RealtimeNetworkingSettings": "Realtime Netwerk",
-        "Settings.AssetGatherSettings": "Assets Verzamelen", // TODO (asset)
+        "Settings.AssetGatherSettings": "Objecten Verzamelen", // TODO (asset)
 
         "Settings.HostAccessSettings": "Hosttoegang",
         "Settings.UserRestrictionsSettings": "Gebruikers-beperkingen",
@@ -1276,10 +1276,10 @@
         "Settings.InteractiveCameraPositioningSettings": "Positionering",
         "Settings.InteractiveCameraRenderSettings": "Weergave",
         "Settings.InteractiveCameraGroupSettings": "Gebruikersgroepering",
-        "Settings.InteractiveCameraSmoothingSettings": "Smoothing", // TODO (smooth)
+        "Settings.InteractiveCameraSmoothingSettings": "Verfijnen", // TODO (smooth)
         "Settings.InteractiveCameraAnchorSettings": "Ankers",
         "Settings.InteractiveCameraPhotoSettings": "Fotos",
-        "Settings.InteractiveCameraPostProcessingSettings": "Nabewerking", // TODO (post processing)
+        "Settings.InteractiveCameraPostProcessingSettings": "Nabewerken", // TODO (post processing)
 
         "Settings.GeneralControlsSettings.PrimaryHand": "Primaire hand",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "De hand die als primaire hand wordt gezien. Verschillende systemen gebruiken dit voor interactie, zoals wanneer je gereedschappen gebruikt.",
@@ -1295,13 +1295,13 @@
         "Settings.MovementSettings.RightSidewaysMode.Description": "Gebruik dit om te bepalen wat de zijwaartse beweging op je rechter joystick/touchpad doet.",
         "Settings.MovementSettings.UseHeadDirectionForMovement": "Gebruik hoofd-richting voor beweging",
         "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "Als dit aan staat, ga je naar voren in de richting waar je naar kijkt. Als dit uitstaat, wordt de richting van je controller gebruikt.",
-        "Settings.MovementSettings.UseSmoothTurn": "Smooth draaien", // TODO (smooth)
+        "Settings.MovementSettings.UseSmoothTurn": "Verfijnt draaien", // TODO (smooth)
         "Settings.MovementSettings.UseSmoothTurn.Description": "Hiermee draai je langzaam rond terwijl je in VR bent. Dit kan meer meeslepend zijn, maar kan misselijkheid veroorzaken. Zet deze instelling uit als je snap turning fijner vindt.", // TODO (snap)
-        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Gebruik smooth draaien exclusieve modus", // TODO (smooth)
+        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Gebruik verfijnt draaien exclusieve modus", // TODO (smooth)
         "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "Wanneer dit aan staat kan een enkele joystick je naar voren/achter bewegen, of draaien, maar nooit tegelijk. Zet dit aan als je vaak per ongeluk draait als je alleen probeert te bewegen.",
-        "Settings.MovementSettings.SmoothTurnSpeed": "Smooth draai snelheid", // TODO (smooth)
+        "Settings.MovementSettings.SmoothTurnSpeed": "Verfijnde draai snelheid", // TODO (smooth)
         "Settings.MovementSettings.SmoothTurnSpeed.Description": "Deze instelling bepaalt hoe snel je draait als smooth draaien aan staat. De waarde is graden per seconde, dus een waarde van 360 draait je in een seconde rond met de joystick volledig naar links/rechts.",
-        "Settings.MovementSettings.SnapTurnAngle": "Snap draai hoek", // TODO (snap)
+        "Settings.MovementSettings.SnapTurnAngle": "Klik draai hoek", // TODO (snap)
         "Settings.MovementSettings.SnapTurnAngle.Description": "Dit is de hoek (in graden) die je draait als je met snap draai probeert te draaien.", // TODO (snap)
         "Settings.MovementSettings.NoClipSpeed": "Noclip snelheid",
         "Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip voortbewegingsmodus. Dit type voortbeweging wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.",
@@ -1309,7 +1309,7 @@
         "Settings.MovementSettings.MovementDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren. Door deze waarde te verhogen moet je de joystick verder duwen voordat je beweegt.", // TODO (drift)
         "Settings.MovementSettings.TurningDeadzone": "Draaien deadzone",
         "Settings.MovementSettings.TurningDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren en per ongeluk draaien voorkomen wanneer je beweegt en draait met dezelfde joystick. Door deze waarde te verhogen moet je de joystick verder duwen voordat je draait.",
-        "Settings.MovementSettings.MovementExponent": "Bewegings exponent", // TODO (exponent)
+        "Settings.MovementSettings.MovementExponent": "Bewegings Versnelling", // TODO (exponent)
         "Settings.MovementSettings.MovementExponent.Description": "Gebruik dit om de curve-reactie voor bewegen te bewerken. Je kan dit gebruiken om te beginnen met langzaam bewegen en daarna vlugger snel bewegen, or gelijk sneller bewegen, gebaseerd op of de waarde boven of onder 1.0 is.",
 
         "Settings.GrabbingSettings": "Vastpakken",
@@ -1319,7 +1319,7 @@
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick draaisnelheid",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Gebruik dit om de gevoeligheid van de thumbstick voor rondkijken aan te passen.",
-        "Settings.GamepadSettings.ThumbstickLookExponent": "Thumbstick draai-exponent", // TODO (exponent)
+        "Settings.GamepadSettings.ThumbstickLookExponent": "Thumbstick draai-Versnelling", // TODO (exponent)
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Gebruik dit om de curve-reactie voor rondkijken te bewerken. Je kan dit gebruiken om te beginnen met langzaam bewegen en daarna vlugger snel bewegen, or gelijk sneller bewegen, gebaseerd op of de waarde boven of onder 1.0 is.",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Gebruik gamepad wanneer niet in focus",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Wanneer dit aan staat, wordt invoer van gamepads gebruikt ook wanneer de applicatie venster niet in focus is. Je kan dit uit zetten als je tegelijk andere spellen wil spelen die ook gamepads gebruiken.",
@@ -1343,19 +1343,19 @@
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Als dit aan staat, wissel je automatisch tussen VR- en bureaublad-modus wanneer je jouw VR headset op of af doet.",
 
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Handen Positie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Handen Rotatie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Handen Positie Verfijning", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Handen Rotatie Verfijning", // TODO (smooth)
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen positie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.", // TODO (smooth)
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen rotatie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.", // TODO (smooth)
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Voeten Positie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Voeten Rotatie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Voeten Positie Verfijning", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Voeten Rotatie Verfijning", // TODO (smooth)
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
 
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Heupen Positie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Heupen Rotatie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Heupen Positie Verfijning", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Heupen Rotatie Verfijning", // TODO (smooth)
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
 
